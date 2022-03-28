@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="min_temperature">Min temperature:</string>
+    <string name="location_permission_has_been_denied">Location permission has been denied.</string>
+    <string name="forecast">Forecast:</string>
+    <string name="max_temperature">Max temperature:</string>
+    <string name="pressure">Pressure:</string>
+    <string name="humidity">Humidity:</string>
+    <string name="location_permissions_rationale">Location permissions are required in order for the application to work</string>
+    <string name="enable_location_to_see_weather_forecast">Enable location to see weather forecast</string>
+    <string name="last_location_request_has_been_canceled">Last location request has been canceled</string>
+    <string name="last_location_request_failed">Last location request failed due to reason: %s</string>
+</resources>
