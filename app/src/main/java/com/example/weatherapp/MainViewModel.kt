@@ -11,6 +11,7 @@ import com.example.weatherapp.data.model.Forecast
 import com.example.weatherapp.utils.CitiesLoader
 import com.example.weatherapp.utils.Resource
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.lang.Exception
 
