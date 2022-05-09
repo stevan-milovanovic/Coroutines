@@ -11,9 +11,8 @@ import com.example.weatherapp.data.model.Forecast
 import com.example.weatherapp.utils.CitiesLoader
 import com.example.weatherapp.utils.Resource
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import java.net.UnknownHostException
+import java.lang.Exception
 
 class MainViewModel(
     private val apiManager: ApiManager
@@ -30,8 +29,8 @@ class MainViewModel(
                     apiManager.getWeather(cityId, APP_ID)
                 }
                 forecast.value = Resource.success(forecastFromApi)
-            } catch (e: UnknownHostException) {
-                forecast.value = Resource.error(e.message ?: "Unknown host exception occurred", null)
+            } catch (e: Exception) {
+                forecast.value = Resource.error(e.message ?: "Unexpected exception occurred", null)
             }
         }
     }
