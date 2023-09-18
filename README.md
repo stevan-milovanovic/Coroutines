@@ -1,4 +1,7 @@
-# coroutines
+# Coroutines
+
+[How to use coroutines to implement networking and background processing in the example project.](https://medium.com/smg-real-estate/coroutines-on-android-d3e3413e6aa7)
+
 This is an example of using kotlin coroutines inside of the Android project.
 
 In this app coroutines were used for network, I/O and CPU extensive operations.
